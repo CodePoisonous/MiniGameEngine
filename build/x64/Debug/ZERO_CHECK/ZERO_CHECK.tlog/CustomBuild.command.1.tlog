@@ -1,0 +1,10 @@
+^E:\GAMEENGINESOURCE\REPOS\MINIGAMEENGINE\BUILD\CMAKEFILES\CA1116A5B011A687760D8BA49C663E02\GENERATE.STAMP.RULE
+setlocal
+D:\cmake\cmake\bin\cmake.exe -SE:/GameEngineSource/Repos/MiniGameEngine -BE:/GameEngineSource/Repos/MiniGameEngine/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/GameEngineSource/Repos/MiniGameEngine/build/MiniGameEngine.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F0355D6A-466D-3E79-90DB-4BE8BBB4216E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\GameEngineSource\Repos\MiniGameEngine\Framework\Common;E:\GameEngineSource\Repos\MiniGameEngine\Framework\Interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\GameEngineSource\Repos\MiniGameEngine\Framework\Common;E:\GameEngineSource\Repos\MiniGameEngine\Framework\Interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\GameEngineSource\Repos\MiniGameEngine\Framework\Common;E:\GameEngineSource\Repos\MiniGameEngine\Framework\Interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\GameEngineSource\Repos\MiniGameEngine\Framework\Common;E:\GameEngineSource\Repos\MiniGameEngine\Framework\Interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\GameEngineSource\Repos\MiniGameEngine\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/GameEngineSource/Repos/MiniGameEngine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\cmake\cmake\bin\cmake.exe -SE:/GameEngineSource/Repos/MiniGameEngine -BE:/GameEngineSource/Repos/MiniGameEngine/build --check-stamp-file E:/GameEngineSource/Repos/MiniGameEngine/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\cmake\cmake\share\cmake-3.23\Modules\CMakeCInformation.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\GameEngineSource\Repos\MiniGameEngine\build\CMakeFiles\3.23.0-rc3\CMakeCCompiler.cmake;E:\GameEngineSource\Repos\MiniGameEngine\build\CMakeFiles\3.23.0-rc3\CMakeCXXCompiler.cmake;E:\GameEngineSource\Repos\MiniGameEngine\build\CMakeFiles\3.23.0-rc3\CMakeRCCompiler.cmake;E:\GameEngineSource\Repos\MiniGameEngine\build\CMakeFiles\3.23.0-rc3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\GameEngineSource\Repos\MiniGameEngine\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/GameEngineSource/Repos/MiniGameEngine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\cmake\cmake\bin\cmake.exe -SE:/GameEngineSource/Repos/MiniGameEngine -BE:/GameEngineSource/Repos/MiniGameEngine/build --check-stamp-file E:/GameEngineSource/Repos/MiniGameEngine/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\cmake\cmake\share\cmake-3.23\Modules\CMakeCInformation.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\GameEngineSource\Repos\MiniGameEngine\build\CMakeFiles\3.23.0-rc3\CMakeCCompiler.cmake;E:\GameEngineSource\Repos\MiniGameEngine\build\CMakeFiles\3.23.0-rc3\CMakeCXXCompiler.cmake;E:\GameEngineSource\Repos\MiniGameEngine\build\CMakeFiles\3.23.0-rc3\CMakeRCCompiler.cmake;E:\GameEngineSource\Repos\MiniGameEngine\build\CMakeFiles\3.23.0-rc3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\GameEngineSource\Repos\MiniGameEngine\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/GameEngineSource/Repos/MiniGameEngine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\cmake\cmake\bin\cmake.exe -SE:/GameEngineSource/Repos/MiniGameEngine -BE:/GameEngineSource/Repos/MiniGameEngine/build --check-stamp-file E:/GameEngineSource/Repos/MiniGameEngine/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\cmake\cmake\share\cmake-3.23\Modules\CMakeCInformation.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\GameEngineSource\Repos\MiniGameEngine\build\CMakeFiles\3.23.0-rc3\CMakeCCompiler.cmake;E:\GameEngineSource\Repos\MiniGameEngine\build\CMakeFiles\3.23.0-rc3\CMakeCXXCompiler.cmake;E:\GameEngineSource\Repos\MiniGameEngine\build\CMakeFiles\3.23.0-rc3\CMakeRCCompiler.cmake;E:\GameEngineSource\Repos\MiniGameEngine\build\CMakeFiles\3.23.0-rc3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\GameEngineSource\Repos\MiniGameEngine\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/GameEngineSource/Repos/MiniGameEngine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\cmake\cmake\bin\cmake.exe -SE:/GameEngineSource/Repos/MiniGameEngine -BE:/GameEngineSource/Repos/MiniGameEngine/build --check-stamp-file E:/GameEngineSource/Repos/MiniGameEngine/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\cmake\cmake\share\cmake-3.23\Modules\CMakeCInformation.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\cmake\cmake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\GameEngineSource\Repos\MiniGameEngine\build\CMakeFiles\3.23.0-rc3\CMakeCCompiler.cmake;E:\GameEngineSource\Repos\MiniGameEngine\build\CMakeFiles\3.23.0-rc3\CMakeCXXCompiler.cmake;E:\GameEngineSource\Repos\MiniGameEngine\build\CMakeFiles\3.23.0-rc3\CMakeRCCompiler.cmake;E:\GameEngineSource\Repos\MiniGameEngine\build\CMakeFiles\3.23.0-rc3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\GameEngineSource\Repos\MiniGameEngine\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\GameEngineSource\Repos\MiniGameEngine\build\ZERO_CHECK.vcxproj">
+      <Project>{385E27B8-CE5B-310C-8E6E-F070E235BCBB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\GameEngineSource\Repos\MiniGameEngine\build\Framework\Common\Common.vcxproj">
+      <Project>{D4B994E8-2EA6-370C-9D71-CA72A0A3CBE2}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\GameEngineSource\Repos\MiniGameEngine\build\Empty\Empty.vcxproj">
+      <Project>{1F1C19C3-12B1-3232-9455-6955702E0985}</Project>
+      <Name>Empty</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

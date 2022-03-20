@@ -1,0 +1,23 @@
+# CMake generation dependency list for this directory.
+D:/cmake/cmake/share/cmake-3.23/Modules/CMakeCInformation.cmake
+D:/cmake/cmake/share/cmake-3.23/Modules/CMakeCXXInformation.cmake
+D:/cmake/cmake/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake
+D:/cmake/cmake/share/cmake-3.23/Modules/CMakeGenericSystem.cmake
+D:/cmake/cmake/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake
+D:/cmake/cmake/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake
+D:/cmake/cmake/share/cmake-3.23/Modules/CMakeRCInformation.cmake
+D:/cmake/cmake/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake
+D:/cmake/cmake/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake
+D:/cmake/cmake/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/cmake/cmake/share/cmake-3.23/Modules/Compiler/MSVC-C.cmake
+D:/cmake/cmake/share/cmake-3.23/Modules/Compiler/MSVC-CXX.cmake
+D:/cmake/cmake/share/cmake-3.23/Modules/Platform/Windows-MSVC-C.cmake
+D:/cmake/cmake/share/cmake-3.23/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/cmake/cmake/share/cmake-3.23/Modules/Platform/Windows-MSVC.cmake
+D:/cmake/cmake/share/cmake-3.23/Modules/Platform/Windows.cmake
+D:/cmake/cmake/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake
+E:/GameEngineSource/Repos/MiniGameEngine/CMakeLists.txt
+E:/GameEngineSource/Repos/MiniGameEngine/build/CMakeFiles/3.23.0-rc3/CMakeCCompiler.cmake
+E:/GameEngineSource/Repos/MiniGameEngine/build/CMakeFiles/3.23.0-rc3/CMakeCXXCompiler.cmake
+E:/GameEngineSource/Repos/MiniGameEngine/build/CMakeFiles/3.23.0-rc3/CMakeRCCompiler.cmake
+E:/GameEngineSource/Repos/MiniGameEngine/build/CMakeFiles/3.23.0-rc3/CMakeSystem.cmake
